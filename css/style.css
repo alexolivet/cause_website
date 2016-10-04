@@ -48,8 +48,13 @@ h1{
 /* responsive layout CSS */
 @media (max-width: 1350px){ 
 
-	.wrapper,h1,.imagepic,p,.social_media{
+	.wrapper,h1,.imagepic,p,{
 		width: 100%;
+		margin-left: 0;
+	}
+
+	.imagepic{
+		width: 85%;
 		margin-left: 0;
 	}
 }
