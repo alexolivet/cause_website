@@ -44,14 +44,27 @@ h1{
 
 .social_media img{
 	width: 50px;
+	padding-top: 60px;
 }
 
 .social_media{
 	position: fixed;
 	padding-top: 30px;
-	top:10px;
-	left: 70px;
-	background-color: #ffffff;
+	background-color: rgba(85,136,255,0.4);
+	width: 200px;
+	height: 100%;
+	padding: 35px;
+	padding-top: 100px;
+
+}
+
+a {
+	color:white;
+}
+
+a:link {
+	text-decoration: none;
+
 }
 
 .donation button{
