@@ -87,6 +87,10 @@ button{
   font-size: 13px;
 }
 
+button:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
 .details img {
   width:65%;
   height: auto;
