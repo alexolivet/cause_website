@@ -1,34 +1,46 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  	<title> Sad Piggy </title>
-  	<link rel="stylesheet" type="text/css" href="css/style.css">
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="script/script.js"></script>
-  </head>
-  <body>
-
-    <div class="social_media">
-      <a href="about.html" target="_blank"> Our Mission </a>
-      <a href="https://www.facebook.com/MuppetsMissPiggy/" target="_blank"><img src="images/facebook.png" alt="facebook"></a>
-      <a href="https://twitter.com/misspiggy?lang=en" target="_blank"><img src="images/twitter.png" alt="facebook"></a>
-      </br></br>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Sad Piggy </title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <div id="maincontainer">
+    <div id="topsection">
+      <div class="innertube">      
+        <h1> Save the pig! </h1>
+      </div>
     </div>
-
-    <div class="wrapper">
-    	<h1> Save the pig! </h1>
-    	<img class="imagepic" src="images/pig_old.jpg" alt="Help Me">
-
-    	<p> 
-    		This little piggy went to market, Wiggle the "big" toe <br> This little piggy stayed home, Wiggle the "long" toe <br> This little piggy had roast beef Wiggle the "middle" toe </br>
-    		This little piggy had none, Wiggle the "ring" toe </br> And this little piggy cried wee wee wee all the way home.Wiggle the "pinky" toe and tickle the bottom of the foot
-    	</p>
-
-    	<button onclick="window.location.href='donate.html'"> Change my life </button>
+    <div id="contentwrapper">
+      <div id="contentcolumn">
+        <div class="innertube">
+          <img class="imagepic" src="images/pig_old.jpg" alt="Help Me">
+          <p> 
+            This little piggy went to market, Wiggle the "big" toe <br> This little piggy stayed home, Wiggle the "long" toe <br> This little piggy had roast beef Wiggle the "middle" toe </br>
+            This little piggy had none, Wiggle the "ring" toe </br> And this little piggy cried wee wee wee all the way home.Wiggle the "pinky" toe and tickle the bottom of the foot
+          </p>
+        </div>
+      </div>
     </div>
+    <div id="leftcolumn">
+      <div class="innertube">      
+       <ul>
+         <li><a href="#" target="_blank"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a> </li>
+         <li><a href="#" target="_blank"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a></li>
+       </ul>
 
-  
-
-
-  </body>
+       <ul>
+         <li><a href="donate.html" target="_self">donate now!</a> </li>
+         <li><a href="about.html" target="_self">Our Mission</a></li>
+       </ul>
+     </div>
+   </div>
+   <div id="footer"><a href="donate.html">donate!</a></div>
+ </div>
+</body>
 </html>
