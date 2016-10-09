@@ -253,7 +253,7 @@ a:active {
     float: none;
   }
   
-  #leftcolumn{
+  #leftcolumn,#leftcolumn_donate{
     width: 100%;
     height: auto;
     margin-left: 0;
