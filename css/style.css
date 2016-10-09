@@ -83,14 +83,6 @@ li a {
   border-radius: 20px;
 }
 
-button{
-  font-size: 13px;
-}
-
-button:hover{
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
 .details img {
   width:65%;
   height: auto;
@@ -117,7 +109,9 @@ p + p:first-letter {
 }
 
 
+/* Donate box */
 .card{
+
   text-align: center;
   display: inline-block;
   width: 35%;
@@ -130,6 +124,27 @@ p + p:first-letter {
   background-color: white;
   transition: 0.3s;
 }
+
+button, input{
+  font-size: 13px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  background-color: #ffe6ff;
+  border: 1px solid #ffb3ff;
+  border-radius: 3px;
+  min-width: 120px;
+  max-width: 120px;
+}
+
+button:hover{
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2);
+}
+/* Donate box */
+
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
