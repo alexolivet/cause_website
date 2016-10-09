@@ -1,5 +1,6 @@
 *{
   font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  max-width: 100%;
 }
 
 body{
@@ -17,7 +18,7 @@ em{color: red;}
   height: 90px; /*Height of top section*/
 }
 
-#topsection h1{
+#topsection h1,h2{
   margin: 0;
   padding-top: 15px;
 }
@@ -75,6 +76,10 @@ li a {
   padding: 5px;
   margin: 5px;
 } 
+
+#menu_top{
+  display: none;
+}
 
 .imagepic{
   width: 70%;
@@ -169,7 +174,7 @@ a:active {
 
 /* ####### responsive layout CSS ####### */
 
-@media (max-width: 900px){ /* responsive layout break point */
+@media (max-width: 1024px){ /* responsive layout break point */
 
   #contentwrapper,p{
     float: none;
@@ -192,5 +197,27 @@ a:active {
   .details img {
     width: 90%;
   }
+#menu_bottom{
+  display: none;
+}
+
+#menu_top{
+  display: block;
+  font-size: 24px;
+  padding-top: 10px;
+}
+h3{
+  padding: 0;
+  margin: 0;
+}
+
+h2{
+  display: none;
+}
+
+.details h1{
+  display: none;
+}
+
 }
 
