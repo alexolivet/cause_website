@@ -113,9 +113,8 @@ p + p:first-letter {
   line-height: 1.25em;
 }
 
-
 /* Donate box */
-.card{
+.card {
 
   text-align: center;
   display: inline-block;
@@ -126,14 +125,25 @@ p + p:first-letter {
   min-height: 250px;
   padding: 10px;
   margin: 10px;
+  /*Do we want this???*/
+/*  padding: 0;
+  /*Do we want this???*/
   background-color: white;
   transition: 0.3s;
 }
 
+.stepTitle {
+  position: relative;
+  background-color: #e6edff;
+  border: 0;
+  width: 100%;
+  font-weight: bold;
+}
+
 button, input{
   font-size: 13px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
   padding-top: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -145,8 +155,63 @@ button, input{
   max-width: 120px;
 }
 
+
+.inputminimal {
+  min-width: 20px;
+  max-width: 20px;
+}
+
 button:hover{
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2);
+}
+
+#step2, #step3, #step4, #s3next, #error {
+  display: none; 
+}
+
+#error {
+  color: #FF0000;
+  font-weight: bold;
+}
+
+.payImage {
+  width: 100px;
+}
+
+
+#lastname {
+  min-width: 200px;
+  max-width: 200px;
+}
+
+#street {
+  min-width: 270px;
+  max-width: 270px;
+}
+
+#housenumber {
+  min-width: 50px;
+  max-width: 50px;
+}
+
+#city {
+  min-width: 220px;
+  max-width: 220px;
+}
+
+#zipcode {
+  min-width: 100px;
+  max-width: 100px;
+}
+
+#mail {
+  min-width: 200px;
+  max-width: 200px;
+}
+
+#phone {
+  min-width: 120px;
+  max-width: 120px;
 }
 /* Donate box */
 
