@@ -40,6 +40,14 @@ em{color: red;}
   background-color: rgba(85,136,255,0.4);
 }
 
+#leftcolumn_donate{
+  float: left;
+  width: 200px; /*Width of left column*/
+  height: 1400px;
+  margin-left: -100%;
+  background-color: rgba(85,136,255,0.4);
+}
+
 
 #footer{
   clear: left;
@@ -180,7 +188,7 @@ a:active {
     float: none;
   }
   
-  #leftcolumn{
+  #leftcolumn,#leftcolumn_donate{
     width: 100%;
     height: auto;
     margin-left: 0;
