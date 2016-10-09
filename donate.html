@@ -1,123 +1,123 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title> Donate - Sad Piggy </title>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="script/script.js"></script>
-</head>
-<body>
-  <div id="maincontainer">
-    <div id="topsection">
-      <div class="innertube">      
-        <h1> Donate! </h1>
-         <ul id="menu_top">
-          <li><a href="index.html" target="_self">Home &nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-          <li><a href="about.html" target="_self">Our Mission</a></li>
-        </ul>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Donate - Sad Piggy </title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="script/script.js"></script>
+  </head>
+  <body>
+    <div id="maincontainer">
+      <div id="topsection">
+        <div class="innertube">      
+          <h1> Donate! </h1>
+           <ul id="menu_top">
+            <li><a href="index.html" target="_self">Home &nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+            <li><a href="about.html" target="_self">Our Mission</a></li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <div id="contentwrapper">
-      <div id="contentcolumn">
-        <div class="innertube">
-          <h2>Donate well!!!</h2>
-          <div class="card">
-            <div class="stepTitle" id="step1Title">
-              Select amount for donation
-            </div>
-            <div id="step1">
-              <h3>Help us educate people about miniature pigs</h3>
-              <div>
-                <button class="donation" id="donate5" value="5"> &euro;5 </button>
-                <button class="donation" id="donate10" value="10"> &euro;10 </button>
-                <button class="donation" id="donate15" value="15"> &euro;15 </button>
-                <button class="donation" id="donate20" value="50"> &euro;50 </button>
-                <button class="donation" id="donate100" value="100"> &euro;100 </button>
-                <button class="donation" id="donate250" value="250"> &euro;250 </button>
-                <br><input type="input" id="ownvalue" class="max-width" value="Other amount">
-                <button class="donation" id="custom" value="donate"> Next </button>
+      <div id="contentwrapper">
+        <div id="contentcolumn">
+          <div class="innertube">
+            <h2>Donate well!!!</h2>
+            <div class="card">
+              <div class="stepTitle" id="step1Title">
+                Select amount for donation
               </div>
-              <div id="error">Incorrect value</div>
-            </div>
-            <div class="stepTitle" id="step2Title">
-              Enter contact details
-            </div>
-            <div id="step2">
-              <h3>
-                Please fill-in your contact details 
-              </h3>
-              <div>
-                <input type="input" id="firstname" class="max-width" value="First name">
-                <input type="input" id="lastname" class="max-width" value="Last name">
+              <div id="step1">
+                <h3>Help us educate people about miniature pigs</h3>
+                <div>
+                  <button class="donation" id="donate5" value="5"> &euro;5 </button>
+                  <button class="donation" id="donate10" value="10"> &euro;10 </button>
+                  <button class="donation" id="donate15" value="15"> &euro;15 </button>
+                  <button class="donation" id="donate20" value="50"> &euro;50 </button>
+                  <button class="donation" id="donate100" value="100"> &euro;100 </button>
+                  <button class="donation" id="donate250" value="250"> &euro;250 </button>
+                  <br><input type="text" id="ownvalue" class="max-width" value="Other amount">
+                  <button class="donation" id="custom" value="donate"> Next </button>
+                </div>
+                <div id="error">Incorrect value</div>
               </div>
-              <div>
-                <input type="input" id="street" class="max-width" value="Street name">
-                <input type="input" id="housenumber" class="max-width" value="Number">
+              <div class="stepTitle" id="step2Title">
+                Enter contact details
               </div>
-              <div>
-                <input type="input" id="city" class="max-width" value="City">
-                <input type="input" id="zipcode" class="max-width" value="ZIP code">
+              <div id="step2">
+                <h3>
+                  Please fill-in your contact details 
+                </h3>
+                <div>
+                  <input type="text" id="firstname" class="max-width" value="First name">
+                  <input type="text" id="lastname" class="max-width" value="Last name">
+                </div>
+                <div>
+                  <input type="text" id="street" class="max-width" value="Street name">
+                  <input type="text" id="housenumber" class="max-width" value="Number">
+                </div>
+                <div>
+                  <input type="text" id="city" class="max-width" value="City">
+                  <input type="text" id="zipcode" class="max-width" value="ZIP code">
+                </div>
+                <div>
+                  <input type="email" id="mail" class="max-width" value="E-mail address">
+                  <input type="text" id="phone" class="max-width" value="Phone number">
+                </div>
+                <div>
+                  <button id="s2next" class="donation" value="next"> Next </button>
+                </div>
               </div>
-              <div>
-                <input type="input" id="mail" class="max-width" value="E-mail address">
-                <input type="input" id="phone" class="max-width" value="Phone number">
+              <div class="stepTitle" id="step3Title">
+                Payment method
               </div>
-              <div>
-                <button id="s2next" class="donation" value="next"> Next </button>
+              <div id="step3">
+                <h3>Please select your payment method</h3>
+                <div>
+                  <img src="images/creditcard.png" alt="Use creditcard payment" class="payImage">
+                  <img src="images/paypal.png" alt="Use Paypal payment" class="payImage">
+                  <img src="images/ideal.png" alt="Use iDeal payment" class="payImage">
+                  
+                  <br>
+                  <input type="radio" name="paymentmethod" id="cc" value="creditcard">
+                  <input type="radio" name="paymentmethod" id="pp" value="paypal">
+                  <input type="radio" name="paymentmethod" id="id" value="ideal">
+   
+                  <br><br>
+                  <input type="checkbox" id="oke" class="inputminimal">
+                  I confirm that I am above 18 years old and some other legal stuff.
+                </div>
+                <div>
+                  <button id="s3next" class="donation" value="next"> Next </button>
+                </div>
               </div>
-            </div>
-            <div class="stepTitle" id="step3Title">
-              Payment method
-            </div>
-            <div id="step3">
-              <h3>Please select your payment method</h3>
-              <div>
-                <img src="images/creditcard.png" alt="Use creditcard payment" class="payImage">
-                <img src="images/paypal.png" alt="Use Paypal payment" class="payImage">
-                <img src="images/ideal.png" alt="Use iDeal payment" class="payImage">
-                
-                <br>
-                <input type="radio" name="paymentmethod" id="cc" value="creditcard">
-                <input type="radio" name="paymentmethod" id="pp" value="paypal">
-                <input type="radio" name="paymentmethod" id="id" value="ideal">
- 
-                <br><br>
-                <input type="checkbox" id="oke" class="inputminimal">
-                I confirm that I am above 18 years old and some other legal stuff.
+              <div class="stepTitle" id="step4Title">
+                Thank you
               </div>
-              <div>
-                <button id="s3next" class="donation" value="next"> Next </button>
+              <div id="step4">
+                Dear <span id="firstnameForm"></span> <span id="lastnameForm"></span>, thank you for your donation of &euro;<span id="amountForm"></span>. You will pay via <span id="paymentForm"></span>.
+                <br><br>With your donation we can keep doing our work and make the life of mini pig's better.
+                <br><br>Thank you, The Sad piggy foundation.
               </div>
-            </div>
-            <div class="stepTitle" id="step4Title">
-              Thank you
-            </div>
-            <div id="step4">
-              Dear <span id="firstnameForm"></span> <span id="lastnameForm"></span>, thank you for your donation of &euro;<span id="amountForm"></span>. You will pay via <span id="paymentForm"></span>.
-              <br><br>With your donation we can keep doing our work and make the life of mini pig's better.
-              <br><br>Thank you, The Sad piggy foundation.
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div id="leftcolumn">
-      <div class="innertube">      
-        <ul>
-          <li><a href="https://www.facebook.com/MuppetsMissPiggy/" target="_blank"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a> </li>
-          <li><a href="https://twitter.com/misspiggy?lang=en" target="_blank"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a></li>
-        </ul>
+      <div id="leftcolumn">
+        <div class="innertube">      
+          <ul>
+            <li><a href="https://www.facebook.com/MuppetsMissPiggy/" target="_blank"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a> </li>
+            <li><a href="https://twitter.com/misspiggy?lang=en" target="_blank"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a></li>
+          </ul>
 
-        <ul id="menu_bottom">
-          <li><a href="index.html" target="_self">Home &nbsp;</a></li>
-          <li><a href="about.html" target="_self">Our Mission</a></li>
-        </ul>
+          <ul id="menu_bottom">
+            <li><a href="index.html" target="_self">Home &nbsp;</a></li>
+            <li><a href="about.html" target="_self">Our Mission</a></li>
+          </ul>
+        </div>
       </div>
+      <div id="footer"><a href="donate.html">Donate!</a></div>
     </div>
-    <div id="footer"><a href="donate.html">Donate!</a></div>
-  </div>
-</body>
+  </body>
 </html>
